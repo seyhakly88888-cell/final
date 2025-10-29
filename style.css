@@ -20,6 +20,8 @@ body{
     padding: 0 10px;
     flex-wrap: wrap;
     position: fixed;
+    
+   
     z-index: 1000;
 }
 
@@ -163,7 +165,7 @@ body{
 }
 .hero-img{
     height: 100vh;
-     margin-top: 100px;
+     /* margin-top: 100px; */
     filter: brightness(50%);
     object-fit: cover;
 }
@@ -199,7 +201,7 @@ body{
     }
 
     .menu-bar ul li a {
-        font-size: 18px;
+        font-size: 15px;
     }
    
 
@@ -213,18 +215,20 @@ body{
     }
 
     .login button {
-        font-size: 14px;
-        padding: 5px 10px;
+        font-size: 12px;
+        padding: 5px 5px;
     }
 }
 
 /* --- Mobile (max 768px) --- */
 @media (max-width: 768px) {
     .menu-bar {
+         position: static;
         flex-direction: column;
         align-items: flex-start;
         height: auto;
         padding: 15px;
+       
     }
    
 
@@ -316,7 +320,7 @@ body{
   .hero-img{
     
      height: 80vh;
-     margin-top: 350px;
+     /* margin-top: 350px; */
     
     
 }
