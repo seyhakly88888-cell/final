@@ -1,4 +1,48 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=BBH+Sans+Bogle&family=BBH+Sans+Hegarty&family=Bebas+Neue&family=Bungee&family=Dangrek&family=Koulen&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Lilita+One&family=Moul&family=Playwrite+DE+SAS:wght@100..400&family=Shadows+Into+Light&display=swap');
+@font-face {
+  font-family: "blazed";
+  src: url(./Blazed.ttf);
+}
+@font-face {
+  font-family: "facon";
+  src: url(./Facon.ttf);
+}
+@font-face {
+  font-family: "autumn";
+  src: url(Autumn\ History\ Demo.otf);
+}
+@font-face {
+  font-family: "a";
+  src: url(./Lucy\ Said\ Ok\ Personal\ Use.ttf);
+}
+@font-face {
+  font-family: "b";
+  src: url(./Quivert.ttf);
+}
+@font-face {
+  font-family: "c";
+  src: url(./Rockybilly.ttf);
+}
+@font-face {
+  font-family: "d";
+  src: url(./Awesome.ttf);
+}
+@font-face {
+  font-family: "e";
+  src: url(./Angelos.ttf);
+}
+@font-face {
+  font-family: "f";
+  src: url(./Valty\ DEMO.otf);
+}
+@font-face {
+  font-family: "g";
+  src: url(./Rasedia-Regular.otf);
+}
+@font-face {
+  font-family: "h";
+  src: url(./Blinery.otf);
+}
 
 * {
     margin: 0;
@@ -240,7 +284,7 @@ body{
     }
 
     .menu-bar ul {
-        padding-left: 40px;
+        padding-left: 10px;
         width: 100%;
         
     }
@@ -303,6 +347,7 @@ body{
         margin: 5px;
         font-size: 14px;
     }
+   
 }
 
 /* --- Small phones (max 480px) --- */
@@ -336,7 +381,7 @@ body{
 }
 .carousel-caption {
       bottom: 0px;
-      top: 50%;
+      top: 0;
       left:0;
       right: 0;
      
@@ -345,11 +390,25 @@ body{
       
     }   
   .carousel-control-next{
-    margin-top: 100%;
+    margin-top: 5%;
   }
   .carousel-control-prev{
-    margin-top: 100%;
+    margin-top: 5%;
   }
+  .search-bar{
+    margin-left: 55px;
+  }
+  .menu-bar p {
+    font-size: 30px;
+    margin-left: 65px;
+  }
+   .menu-bar .pic{
+    margin-left: -60px;
+    margin-top: -50px;
+   }
+   .menu-bar .pic img{
+     margin-left: 5px;
+   }
 }
 
 
@@ -374,17 +433,17 @@ body{
   
    
   }
- /* Responsive Typography */
+ /* Responsive Typography
     .carousel-caption h1 {
       font-size: clamp(1.5rem, 5vw, 3rem);
     }
 
     .carousel-caption p {
       font-size: clamp(1rem, 2.5vw, 1.25rem);
-    }
+    } */
 
     /* Buttons */
-    .carousel-caption .btn {
+    /* .carousel-caption .btn {
       font-size: clamp(0.9rem, 2.5vw, 1rem);
       border-radius: 25px;
-    }
+    } */
