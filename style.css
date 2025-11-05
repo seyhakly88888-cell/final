@@ -43,10 +43,36 @@
   font-family: "h";
   src: url(./Blinery.otf);
 }
+@font-face {
+  font-family: "kh1";
+  src: url(./Kh\ Baphnom_MengSocheath\ Italic.ttf);
+}
+
+@font-face {
+  font-family: "kh2";
+  src: url(./kh\ virak\ folktale.ttf);
+}
+@font-face {
+  font-family: "kh3";
+  src: url(./Kh\ Baphnom\ 020\ MengSotin\ Italic.ttf);
+}
+@font-face {
+  font-family: "kh4";
+  src: url(./ASvadek\ Kbach\ S\ Italic\ [Version\ 1.00].ttf);
+}
+@font-face {
+  font-family: "kh5";
+  src: url(./Kh\ Baphnom\ 040\ Darina\ Italic.ttf);
+}
+@font-face {
+  font-family: "kh6";
+  src: url(./Kh\ Ang\ PheaSaKhmer.ttf);
+}
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 body{
     height: auto;
@@ -92,7 +118,8 @@ body{
     text-decoration: none;
     color: white;
     font-size: 20px;
-    font-family: "Bebas Neue", sans-serif;
+    /* font-family: "Bebas Neue", sans-serif; */
+    font-family: kh2;
     position: relative;
 }
 
@@ -421,6 +448,12 @@ body{
    .menu-bar .pic img{
      margin-left: 5px;
    }
+    .menu-bar ul {
+      margin-left: -10px;
+    }
+     .menu-bar ul li a{
+    font-size: 15px;
+  }
 }
 
 
@@ -433,6 +466,12 @@ body{
     height: 100vh;
    
   }
+   .menu-bar ul {
+  margin-left: -15px;
+ }
+ .menu-bar ul li a{
+    font-size: 25px;
+  } 
   
 }
 
@@ -492,7 +531,8 @@ ul{
     text-align: center;
    text-transform: capitalize;
    margin-bottom: 20px;
-     font-family: "BBH Sans Bogle", sans-serif;
+     /* font-family: "BBH Sans Bogle", sans-serif; */
+     font-family: kh3;
      position: relative;
 }
 .footer-col h4::before{
@@ -515,7 +555,8 @@ ul{
     color: white;
     font-size: 20px;
     font-weight: 300;
-    font-family: f;
+    /* font-family: f; */
+    font-family: kh6;
     display: block ;
     transition: all 0.3s ease;
     
